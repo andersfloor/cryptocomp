@@ -14,14 +14,14 @@ After installing, register the `Kroten\Cryptocomp\Providers\CryptocompProvider` 
 'providers' => [
     // Other service providers...
 
-    Kroten\Cryptocomp\Providers\CryptocompProvider::class,
+    Krorten\Cryptocomp\Providers\CryptocompProvider::class,
 ],
 ```
 
 Also, add the `Cryptocomp` facade to the `aliases` array in your `app` configuration file:
 
 ```php
-'Cryptocomp' => Kroten\Cryptocomp\Facades\CryptocompFacade::class,    
+'Cryptocomp' => Krorten\Cryptocomp\Facades\CryptocompFacade::class,    
 ```
 
 See the [API documentation](https://cryptocompare.com/api/) for more information about the endpoints and responses.
